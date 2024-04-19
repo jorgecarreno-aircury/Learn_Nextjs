@@ -1,5 +1,16 @@
 {
-  "node": {},
+  "node": {
+    "e1138d5f023eda5daa43acd48ddad5a869af281c": {
+      "workers": {
+        "app/dashboard/invoices/create/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/invoices/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/dashboard/invoices/create/page": "rsc",
+        "app/dashboard/invoices/[id]/edit/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "aD8cQgevf2HNB+Ho1fLer4q7600mkkqUAK2Frw8iSPg="
+  "encryptionKey": "Mc/n1g0kLc/mgvFQyiDfL0qkJSd28X7FL9vG3Tt1f1g="
 }
