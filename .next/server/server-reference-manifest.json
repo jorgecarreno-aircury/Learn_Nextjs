@@ -2,15 +2,35 @@
   "node": {
     "e1138d5f023eda5daa43acd48ddad5a869af281c": {
       "workers": {
-        "app/dashboard/invoices/create/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%5D%5D%5D&__client_imported__=!",
-        "app/dashboard/invoices/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%5D%5D%5D&__client_imported__=true!"
+        "app/dashboard/invoices/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22updateInvoice%22%2C%22createInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=true!",
+        "app/dashboard/invoices/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%2C%22updateInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/dashboard/invoices/create/page": "rsc",
+        "app/dashboard/invoices/[id]/edit/page": "action-browser",
+        "app/dashboard/invoices/page": "rsc"
+      }
+    },
+    "e281a2596742e616298213372d1cbf5d69543527": {
+      "workers": {
+        "app/dashboard/invoices/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22updateInvoice%22%2C%22createInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=true!",
+        "app/dashboard/invoices/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%2C%22updateInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/invoices/[id]/edit/page": "action-browser",
+        "app/dashboard/invoices/page": "rsc"
+      }
+    },
+    "509e2daf9b7618ce06ce3c274af8067139481671": {
+      "workers": {
+        "app/dashboard/invoices/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%2C%22updateInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/invoices/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fjorge%2FDesktop%2FnextJS-tut%2Fnextjsorg%2FLearn_Nextjs%2Fapp%2Flib%2Factions.ts%22%2C%5B%22updateInvoice%22%2C%22createInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc",
         "app/dashboard/invoices/[id]/edit/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "Mc/n1g0kLc/mgvFQyiDfL0qkJSd28X7FL9vG3Tt1f1g="
+  "encryptionKey": "ka4i+4YQ06thqRpVmcObHax6MnCF2G988KQtqBRBd58="
 }
